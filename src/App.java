@@ -14,7 +14,6 @@ public class App {
         }
     }
 
-    // Arreglo de personas
     public static Person[] makePersonList() {
         Person[] people = new Person[20];
         people[0] = new Person("Alice", 30);
