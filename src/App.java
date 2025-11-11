@@ -5,15 +5,16 @@ public class App {
     public static void main(String[] args) throws Exception {
         PersonController PersonController = new PersonController();
         Person[] personas = makePersonList();
-        for(int i = 0; i < personas.length; i++){
+        for (int i = 0; i < personas.length; i++) {
             System.out.println(personas[i]);
         }
         PersonController.sortByName(personas);
-        for(int i = 0; i < personas.length; i++){
+        for (int i = 0; i < personas.length; i++) {
             System.out.println(personas[i]);
         }
     }
 
+    // Arreglo de personas
     public static Person[] makePersonList() {
         Person[] people = new Person[20];
         people[0] = new Person("Alice", 30);

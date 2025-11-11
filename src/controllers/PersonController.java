@@ -8,7 +8,7 @@ public class PersonController {
     }
 
     // Metodo sortByName
-    // Burbuja mejorada
+    // Burbuja mejoradaa
     public void sortByName(Person[] people) {
         for (int i = 0; i < people.length; i++) {
             boolean swapped = false;
